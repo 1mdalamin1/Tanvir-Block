@@ -14,23 +14,6 @@ This is the long description. No limit, and you can use Markdown (as well as in 
 
 For backwards compatibility, if this section is missing, the full length of the short description will be used, and
 Markdown parsed.
-The Tanvir Block plugin registers a single, easy-to-use block that allows you to add custom SVG icons and graphics to the WordPress block editor (Gutenberg). The plugin also includes the complete WordPress icon library with 296+ SVG icons.
-
-### Key features
-
-- 2 blocks, one call to action and other icon with text
-- 296+ native WordPress icons, including social logos
-- Use any custom SVG icon or graphic
-- Insert icons from your Media Library if SVG uploads are supported
-- Includes handy icon controls (link, rotate, alignment, colors, border, padding, margin, etc.)
-- Fully compatible with the Site Editor
-- No block library required 🎉
-- Built almost entirely with native WordPress components
-- Will get additional functionality as it's added to WordPress core
-
-## Extensibility
-
-The Tanvir Block includes several extensibility features that allow you to tailor the block to meet your needs.
 
 == Installation ==
 
@@ -74,55 +57,32 @@ plugins where more information needs to be conveyed that doesn't fit into the ca
 Done: WordPress plugin My CTA bootstrapped in the D:\laragon\www\map\wp-content\plugins\tanvir-block directory.
 
 You can run several commands inside:
-## Requirements
 
-- WordPress 6.5+
-- PHP 7.4+
+  $ npm start
+    Starts the build for development.
 
-## Development
+  $ npm run build
+    Builds the code for production.
 
-# Starts the build for development. [Here link](https://developer.wordpress.org/block-editor/getting-started/devenv/get-started-with-create-block/)
-```shell
-npx @wordpress/create-block@latest tanvir-block
-```
-```shell
-cd tanvir-block
-```
-# Starts the build for development.
-```shell
-npm start
-```
-  # Builds the code for production.
-```shell
-npm run build
-```
-  # Formats files.
-```shell
-npm run format
-```
-  # Lints CSS files.
-```shell
-npm run lint:css
-```
-  # Lints JavaScript files.
-```shell
-npm run lint:js
-```
-  # Creates a zip file for a WordPress plugin.
-```shell
-npm run plugin-zip
-```
-  # Updates WordPress packages to the latest version.
-```shell
-npm run packages-update
-```
+  $ npm run format
+    Formats files.
 
-# To enter the directory type:
-```shell
-cd tanvir-block
-```
-# You can start development with:
-```shell
-npm start
-```
- 
+  $ npm run lint:css
+    Lints CSS files.
+
+  $ npm run lint:js
+    Lints JavaScript files.
+
+  $ npm run plugin-zip
+    Creates a zip file for a WordPress plugin.
+
+  $ npm run packages-update
+    Updates WordPress packages to the latest version.
+
+To enter the directory type:
+
+  $ cd tanvir-block
+
+You can start development with:
+
+  $ npm start
