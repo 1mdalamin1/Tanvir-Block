@@ -1,0 +1,80 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "tanvir-blocks/my-img-box",
+  "version": "0.1.0",
+  "title": "My Image Box",
+  "category": "tanvirblocks",
+  "icon": "superhero",
+  "description": "My Image Box is a block scaffolded with Create Block tool.",
+  "example": {},
+  "supports": {
+    "html": true,
+    "align": true,
+    "__experimentalBorder": {
+      "color": true,
+      "radius": true,
+      "style": true,
+      "width": true
+    },
+    "color": {
+      "gradients": true,
+      "custom": true,
+      "text": true,
+      "background": true
+    },
+    "spacing": {
+      "margin": true,
+      "padding": true
+    },
+    "typography": {
+      "fontSize": true,
+      "lineHeight": true,
+      "letterSpacing": true,
+      "fontFamily": true,
+      "textTransform": true,
+      "fontStyle": true,
+      "fontWeight": true
+    },
+    "customClassName": true,
+    "className": true,
+    "anchor": true
+  },
+  "textdomain": "tanvir-block",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js",
+  "attributes": {
+    "titletext": {
+      "type": "string",
+      "selector": "h2",
+      "default": "Leak Detection",
+      "source": "text"
+    },
+    "descriptiontext": {
+      "type": "string",
+      "selector": "p",
+      "default": "Advanced technology to find and fix leaks quickly",
+      "source": "html"
+    },
+    "list_id": {
+      "type": "string",
+      "default": "#"
+    },
+    "doubleoption": {
+      "type": "boolean",
+      "default": false
+    },
+    "switch_option": {
+      "type": "boolean",
+      "default": false
+    },
+    "image": {
+      "type": "object",
+      "default": {
+        "id": 0
+      }
+    }
+  }
+}

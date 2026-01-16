@@ -1,0 +1,24 @@
+/*
+Theme Name: The Power Peoples
+Theme URI: 
+Author: 1mdalamin1
+Author URI: 
+Description: 
+Requires at least: 6.9
+Tested up to: 6.9
+Requires PHP: 5.7
+Version: 
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Template: virza
+Text Domain: the-power-peoples
+Tags: 
+*/
+
+body {
+    background-color: #09e14d;
+    font-family: Arial, sans-serif;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,96 @@
+/*
+Theme Name: Travasoft Ltd.
+Template: virza
+Author: 1mdalamin1
+Author URI: https://wpmonitor.dev/authors/1mdalamin1/
+Description: Travasoft Ltd. emphasizes simplicity and adaptability. It offers flexible design options, supported by a variety of patterns for different page types, such as services and landing pages, making it ideal for building personal blogs, professional portfolios, online magazines, or business websites. Its templates cater to various blog styles, from text-focused to image-heavy layouts. Additionally, it supports international typography and diverse color palettes, ensuring accessibility and customization for users worldwide.
+Requires at least: 6.0
+Tested up to: 6.9
+Requires PHP: 7.2
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Updated: 2026-01-07 10:40:05
+
+*/
+
+/* body {
+    background-color: #09e14d;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+} */
+/* Add your custom styles below */
+/* On Hero section style */
+ul.wp-block-list.tp_hero-des {
+    display: flex;
+    flex-wrap: wrap;
+}
+ul.wp-block-list.tp_hero-des li {
+    width: 194px;
+}
+ul.wp-block-list.tp_hero-des li:nth-child(1)::marker {
+    color: #ffffff00;
+}
+/* Off Hero section style */
+/* On Services section style */
+.wp-block-button.my_service_btn a {
+    display: flex;
+    background: #fff;
+    border: 1px solid #171717;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+.wp-block-button.my_service_btn a svg {
+    margin-left: 10px;
+    transition: 0.3s;
+}
+.wp-block-button.my_service_btn a:hover {
+    background: #1E40AF !important;
+    border-color: #1E40AF;
+    color: #ffffff !important;
+    transition: 0.3s;
+}
+.wp-block-button.my_service_btn a:hover svg path {
+    stroke: #fff !important;
+}
+.wp-block-button.my_service_btn a:hover svg {
+    transform: rotate(90deg);
+    transition: 0.3s;
+}
+/* Off Services section style */
+/* On why choos us section style */
+.wp-block-tanvir-blocks-my-icon-img.tp-why-choose-icon-box {
+    border: 1px solid #E5E7EB;
+    border-radius: 16px;
+    background: #ffffff;
+    padding: 20px 24px;
+}
+.wp-block-tanvir-blocks-my-icon-img.tp-why-choose-icon-box .icon-container.has-icon-color {
+    padding: 0 !important;
+}
+.wp-block-tanvir-blocks-my-icon-img.tp-why-choose-icon-box .text-wrapper strong.tanvir-block-title {
+    font-size: 24px !important;
+    color: #101828;
+    line-height: 1.5em;
+    margin-bottom: 12px;
+    display: block;
+}
+.wp-block-tanvir-blocks-my-icon-img.tp-why-choose-icon-box .text-wrapper span.tanvir-block-des {
+    color: #4A5565;
+}
+/* Off why choos us section style */
+
+header.wp-block-template-part ul.wp-block-navigation__container {
+    border-radius: 64px;
+    overflow: hidden;
+    background: #F1F5F9;
+    padding: 16px 32px;
+}
+header.wp-block-template-part ul.wp-block-navigation__container li a {
+    font-size: 16px;
+    color: #101828;
+}
+
+

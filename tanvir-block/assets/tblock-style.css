@@ -1,0 +1,116 @@
+
+/* callnow short code style start */
+.tblock-callnow-wrap a {
+    display: flex;
+    padding: 8px 16px;
+    font-size: 16px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    cursor: pointer;
+    border: 1px solid #99A1AF;
+    transition: 0.3s;
+}
+
+.tblock-callnow-wrap {
+    display: flex;
+}
+
+a.tblock-callnow-btn {
+    color: #fff;
+    background: #FF0030;
+    border-color: #ff0030;
+}
+
+.tblock-callnow-wrap a span {
+    padding-left: 8px;
+}
+
+a.tblock-whatsapp-btn {
+    background: #ffffff;
+    margin-left: 10px;
+    color: #0F172B;
+}
+
+a.tblock-whatsapp-btn svg {
+    fill: #0F172B;
+}
+a.tblock-callnow-btn:hover {
+    background: #fff;
+    color: #FF0030;
+    fill: #FF0030;
+    transition: 0.3s;
+    border-color: #FF0030;
+}
+a.tblock-whatsapp-btn:hover {
+    color: #128C7E;
+    transition: 0.3s;
+    border-color: #128C7E;
+}
+a.tblock-whatsapp-btn:hover svg {
+    fill: #128C7E;
+}
+
+.tblock-callnow-wrap.tblock_callnow_footer {
+    background: #101828;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    /* position: fixed; */
+    /* bottom: 0; */
+    /* left: 0; */
+    /* right: 0; */
+    padding: 20px;
+    display: none;
+}
+.tblock-callnow-wrap.tblock_callnow_footer a.tblock-whatsapp-btn span {
+    display: none;
+}
+
+/*============= For responsive CSS3 Start Now >--->==============*/
+/* Medium Layout 1280px */
+@media only screen and (min-width:992px) and (max-width:1200px){ } 
+/* Tablet Layout: 768px */
+@media only screen and (min-width:768px) and (max-width:991px){ }
+/* Mobile Layout 320px */
+@media only screen and (max-width:767px){ 
+  .tblock-callnow-wrap.tblock_callnow_footer {
+    display: flex;
+  }
+  .tblock-callnow-wrap.tblock_callnow_footer a {
+    width: auto;
+  }
+  .tblock-callnow-wrap.tblock_callnow_footer a.tblock-whatsapp-btn {
+    margin-left: 10px;
+    margin-top: auto;
+  }
+  .tblock-callnow-wrap a {
+    width: 275px;
+    justify-content: center;
+  }
+  .tblock-callnow-wrap {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .tblock-callnow-wrap a.tblock-whatsapp-btn {
+    margin-left: 0;
+    margin-top: 10px
+  }
+  header a.tblock-callnow-btn svg {
+    display: none;
+  }
+
+  header a.tblock-callnow-btn {
+    font-size: 12px;
+    padding: 8px;
+    width: 160px;
+    border-radius: 8px;
+    font-weight: 600;
+  }
+}
+/* Wide Mobile Layout 480px */
+@media only screen and (min-width:480px) and (max-width:766px){} 
+/*================= <---End---> responsive CSS3 ===================*/
+/* callnow short code style end */
+
