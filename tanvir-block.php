@@ -1,16 +1,18 @@
 <?php
 /**
  * Plugin Name:       Tanvir Block
- * Description:       Example block scaffolded with Create Block tool.
+ * Description:       Adds three Gutenberg blocks: an SVG Icon/Image block with 296+ WordPress icons, a Call To Action block, and a Contact block. All blocks are fully compatible with the Site Editor.
  * Version:           0.1.0
- * Requires at least: 6.9
+ * Requires at least: 6.5
  * Requires PHP:      7.4
  * Author:            1mdalamin1
  * License:           GPL-2.0-or-later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain:       tanvir-block
+ * Author URI:        https://profiles.wordpress.org/1mdalamin1/
+ * Plugin URI:        https://github.com/1mdalamin1/Tanvir-Block
  *
- * @package CreateBlock
+ * @package TanvirBlock
  */
 
 if ( ! defined( 'ABSPATH' ) ) {

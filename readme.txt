@@ -1,88 +1,83 @@
 === Tanvir Block ===
-Contributors:      The WordPress Contributors
-Tags:              block
+Contributors:      1mdalamin1
+Tags:              block, icon, svg, call-to-action, contact
+Requires at least: 6.5
 Tested up to:      6.9
 Stable tag:        0.1.0
+Requires PHP:      7.4
 License:           GPL-2.0-or-later
 License URI:       https://www.gnu.org/licenses/gpl-2.0.html
 
-Example block scaffolded with Create Block tool.
+Adds three Gutenberg blocks: an SVG Icon/Image block with 296+ WordPress icons, a Call To Action block, and a Contact block.
 
 == Description ==
 
-This is the long description. No limit, and you can use Markdown (as well as in the following sections).
+Tanvir Block adds three custom blocks to the WordPress block editor (Gutenberg) and Site Editor:
 
-For backwards compatibility, if this section is missing, the full length of the short description will be used, and
-Markdown parsed.
+**My Icon/Image Block**
+
+Insert any SVG icon or image into your content with full controls. Includes all 296+ native WordPress icons and social logos. Features include:
+
+* 296+ built-in WordPress SVG icons, including social logos
+* Use any custom SVG icon or graphic
+* Insert images from the Media Library
+* Controls for size, link, rotate, flip, alignment, color, border, padding, and margin
+* Display an optional text description alongside the icon
+* Fully compatible with the Site Editor
+* No external library required
+
+**My CTA (Call To Action) Block**
+
+A simple, customizable Call To Action block with a title, description, button text, and optional background image. All content is editable directly in the editor.
+
+**My Contact Block**
+
+A Contact block with a customizable title, description, and button. Ideal for use on contact pages or sidebars.
+
+All three blocks are built using native WordPress components, support full color, spacing, and typography controls, and work seamlessly in both the post editor and the Site Editor.
+
+**No data is collected or sent to any external service.** All block content is stored in your WordPress database only.
 
 == Installation ==
 
-This section describes how to install the plugin and get it working.
-
-e.g.
-
-1. Upload the plugin files to the `/wp-content/plugins/tanvir-block` directory, or install the plugin through the WordPress plugins screen directly.
-1. Activate the plugin through the 'Plugins' screen in WordPress
-
+1. Upload the plugin files to the `/wp-content/plugins/tanvir-block` directory, or install the plugin through the WordPress Plugins screen directly.
+2. Activate the plugin through the **Plugins** screen in WordPress.
+3. Open any post, page, or the Site Editor and search for "Icon", "CTA", or "Contact" in the block inserter.
 
 == Frequently Asked Questions ==
 
-= A question that someone might have =
+= Does this plugin collect any user data? =
 
-An answer to that question.
+No. This plugin does not collect, store, or transmit any user data to external services.
 
-= What about foo bar? =
+= Does this plugin require any third-party services? =
 
-Answer to foo bar dilemma.
+No. All icons are bundled with the plugin. No external API calls are made.
+
+= Which WordPress versions are supported? =
+
+WordPress 6.5 and later. Requires PHP 7.4 or later.
+
+= Can I use this plugin with the Site Editor (full site editing)? =
+
+Yes. All three blocks are fully compatible with the Site Editor.
+
+= Where can I report bugs or request features? =
+
+Please use the plugin support forum on WordPress.org.
 
 == Screenshots ==
 
-1. This screen shot description corresponds to screenshot-1.(png|jpg|jpeg|gif). Note that the screenshot is taken from
-the /assets directory or the directory that contains the stable readme.txt (tags or trunk). Screenshots in the /assets
-directory take precedence. For example, `/assets/screenshot-1.png` would win over `/tags/4.3/screenshot-1.png`
-(or jpg, jpeg, gif).
-2. This is the second screen shot
+1. The My Icon/Image block in the editor, showing the icon picker and controls.
+2. The My CTA block with editable title, description, and button.
+3. The My Contact block on a contact page.
 
 == Changelog ==
 
 = 0.1.0 =
-* Release
+* Initial release. Includes My Icon/Image, My CTA, and My Contact blocks.
 
-== Arbitrary section ==
+== Upgrade Notice ==
 
-You may provide arbitrary sections, in the same format as the ones above. This may be of use for extremely complicated
-plugins where more information needs to be conveyed that doesn't fit into the categories of "description" or
-"installation." Arbitrary sections will be shown below the built-in sections outlined above.
-
-Done: WordPress plugin My CTA bootstrapped in the D:\laragon\www\map\wp-content\plugins\tanvir-block directory.
-
-You can run several commands inside:
-
-  $ npm start
-    Starts the build for development.
-
-  $ npm run build
-    Builds the code for production.
-
-  $ npm run format
-    Formats files.
-
-  $ npm run lint:css
-    Lints CSS files.
-
-  $ npm run lint:js
-    Lints JavaScript files.
-
-  $ npm run plugin-zip
-    Creates a zip file for a WordPress plugin.
-
-  $ npm run packages-update
-    Updates WordPress packages to the latest version.
-
-To enter the directory type:
-
-  $ cd tanvir-block
-
-You can start development with:
-
-  $ npm start
+= 0.1.0 =
+Initial release.
